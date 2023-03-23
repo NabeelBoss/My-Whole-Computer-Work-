@@ -1,0 +1,122 @@
+#link{
+     font-size:  49px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    background-color:  rgb(238, 180, 32);
+    line-height: 5px;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    }
+
+#para{
+    line-height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 10px dotted gold;
+    margin:70px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.border{
+    background-color: black;
+    margin:8rem;
+    border: 10px solid  rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 40px;
+    color: rgb(238, 180, 32);
+    font-style: italic;
+    font-style: bold;
+    font-weight: 600px;
+    
+}
+
+
+#heading2{
+    font-size: 20px;
+    color:gold;
+    font-style: italic;
+    font-style: bold;
+    font-weight: 600px;
+}
+
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    background-color: gray;
+    height: 50px;
+    width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color:gold ;
+}
+
+#images{
+color: white;
+/* display: inline-block; */
+display: inline-block;
+width: 300px;
+height: 300px;
+margin-top: 80px;
+margin-left: 40px;
+margin-right: 40px;
+text-align: center;
+}
+
+
+#ourproduct{
+background-color: black;
+margin:8rem;
+border: 10px solid  rgb(255, 255, 255);
+border-radius: 80px;
+font-size: 35px;
+color: rgb(238, 180, 32);
+font-style: italic;
+font-style: bold;
+font-weight: 600px;
+}
+
+.text{
+    color: white;
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#lastbutton button{
+    background-color: gray;
+    color: gold;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+#lastbutton{
+    border-bottom: 10px dotted gold;
+}
+
+#final{
+   margin-top: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#visit{ 
+    color: gold;
+}

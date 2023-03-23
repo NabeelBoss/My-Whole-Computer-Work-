@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        /* NAVBAR START  */
+
+.nav{
+    box-shadow: 0 0.5px 1rem rgba(0, 0, 0, 0.5);
+}
+
+#logo{
+    margin-left: 83px;
+    margin-top: 10px;
+}
+
+
+.names{
+    margin-top: 20px;
+    margin-left: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.names ul li a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+.names ul li{
+    list-style: none;
+}
+.names ul{
+    display: flex;
+}
+
+
+#contact{
+    margin-left: 22px;
+}
+#search-logo{
+    margin-left: 240px;
+}
+#search{
+    margin-left: 5px;
+}
+#locate-logo{
+    margin-left: 50px;
+}
+#locate{
+    margin-left: 5px;
+}
+#button-order{
+    margin-left: 50px;
+    width: 220px;
+    height: 40px;
+    border-radius: 3.5px;
+}
+
+
+#our-menu{
+    display: flex;
+    border-bottom: 5px solid transparent;
+}
+#our-menu a h6{
+    font-size: 18px;
+}
+#our-menu:hover{
+    border-bottom: 5px solid red;
+}
+
+
+
+#about-our-food{
+    margin-left: 35px;
+}
+#about-our-food a h6{
+    font-size: 18px;
+}
+#about-our-food:hover{
+    border-bottom: 5px solid red;
+}
+
+
+
+#right-to-know{
+    margin-left: 30px;
+}
+#right-to-know a h6{
+    font-size: 18px;
+}
+#right-to-know:hover{
+    border-bottom: 5px solid red;
+}
+
+
+
+#our-app{
+    margin-left: 30px;
+}
+#our-app a h6{
+    font-size: 18px;
+}
+#our-app:hover{
+    border-bottom: 5px solid red;
+}
+
+
+
+#family{
+    margin-left: 30px;
+}
+#family a h6{
+    font-size: 18px;
+}
+#family:hover{
+    border-bottom: 5px solid red;
+}
+
+
+
+#trending{
+    margin-left: 30px;
+}
+#trending a h6{
+    font-size: 18px;
+}
+#trending:hover{
+    border-bottom: 5px solid red;
+}
+
+        /* NAVBAR END   */
+
+
+
+#slider{
+    position: fixed;
+}
+
+
+.card-title{
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.col{
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(218, 212, 212);
+
+}
+
+
+        /* FOOTER START  */
+
+
+.hit{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+ul{
+	list-style: none;
+}
+.footer-col h6{
+    font-weight: 700;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+    font-weight: 400;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+#facebook{
+    height: 20px;
+    width: 20px;
+}
+
+#facebook:hover{
+    border: 10px solid blue;
+    border-radius: 100%;
+}
+        /* FOOTER END  */

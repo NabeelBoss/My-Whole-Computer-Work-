@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.forbackground{
+    background-image: url(/hero12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#img1{
+    height: 80px;
+    width: 150px;
+    padding-left: 40px;
+
+}
+.links ul li{
+    list-style: none;
+    margin-right: 30px;
+
+
+}
+.links ul{
+    display: flex;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+#img2{
+    height: 20px;
+    width: 20px;
+}
+#tradeinoffer{
+    font-size: 20px;
+    font-weight: 900; 
+    margin-top: 150px;
+    margin-left: 70px;
+}
+#super{
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 70px;
+    line-height: 35px;
+}
+#onall{
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 70px;
+    line-height: 35px;
+    color: rgb(3, 61, 3);
+}
+#save{
+    margin-left: 70px;
+    font-weight: 100; 
+    font-size: 20px;
+    color: rgb(3, 61, 3);
+
+}
+#shop{
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-left: 120px;
+    color: rgb(3, 61, 3);
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#feature{
+    font-size: 60px;
+    font-weight: 900;
+}
+#summer{
+    font-size: 20px;
+    font-weight: 800;
+    color:  rgb(3, 61, 3);
+}
+
+.product{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.cards{
+    border: 2px solid grey;
+}

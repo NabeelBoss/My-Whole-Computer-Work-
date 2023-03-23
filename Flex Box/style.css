@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin:  0;
+    background-color: black;
+}
+
+.baap{
+    background-color: black;
+    color: white;
+    height: 65px;
+    width: 99%;
+    border:8px solid yellowgreen;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+
+#link ul{
+    display: flex;
+    list-style: none;
+    margin: 25px;
+    cursor: pointer;
+}
+#link:hover{
+    background-color: yellowgreen;
+    /* height: 50px;
+    width: 50px; */
+}
+
+#link ul li{
+    margin-right: 35px; 
+}
+
+
+#logos{
+    font-size: 25px;
+    font-weight: 900;
+    margin:15px ;
+}
+.baap2{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-evenly;
+}
+#marquee{
+direction: left;
+font-size: 60px;
+color: whitesmoke;
+background-color: grey;
+transition: 0.3s;
+}
+
+#product{
+    color: white;
+    text-align: center;
+    border: 8px solid yellowgreen;
+    background-color: gray;
+}
+#product button{
+    color: white;
+    border: 5px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#heading{
+    color: white;
+}
