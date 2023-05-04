@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.body-main{
+    background-image: url(background\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    filter: blur(4px);
+    position: relative;
+}
+.main-work-back{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 50%;
+    left: 50.5%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 40px 20px;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+.main-work:hover .main-work-back{
+    position: absolute;
+    rotate: -2.5deg;
+    transition: 0.3s;
+    opacity: 1;
+
+
+}
+
+.main-work{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.headings{
+    color: white;
+    padding-bottom: 35px;
+}
+
+.Box1{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Box2{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Box3{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: green;
+    text-align: center;
+    left: 35px; 
+    margin-top: 24px;
+    
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.Box4{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+}
