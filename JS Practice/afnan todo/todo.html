@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 style="text-align: center; color: black;">Todo List:</h1>
+
+        <ul id="box"></ul><br>
+
+            <p id="error"></p>
+
+        <div class="main">
+
+            <div class="form__group">
+                <input type="text" class="form__input" id="name" placeholder="Todo List">
+            </div>
+            
+            <input type="button" id="btnClick" value="ADD" onclick="addList()">
+
+        </div>
+        
+    </div>
+    <script>
+
+    function addList() {
+
+        document.getElementById("error").innerHTML = ""
+        var name = document.getElementById("name").value;
+
+    if (name == "") {
+
+        document.getElementById("error").innerHTML = "PLEASE ENTER THE VALUE CORRECTLY."
+
+    } else {
+
+        var box = document.getElementById("box")
+
+        var listCreated = document.createElement("li");
+        listCreated.className = "listName"
+
+        listCreated.textContent = name;
+
+        box.appendChild(listCreated)
+
+        var a = document.createElement("a")
+
+        a.textContent = "X"
+        a.href = "javascript:void(0)"
+        a.className = "deleteList"
+
+        listCreated.appendChild(a)
+
+    }
+        document.getElementById("name").value = "";
+
+    }
+    </script>
+</body>
+
+</html>

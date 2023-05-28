@@ -14,35 +14,28 @@ body{
     position: relative;
 }
 .main-work-back{
-    position: absolute;
+    position:fixed;
     width: 400px;
     height: 500px;
     top: 50%;
     left: 50.5%;
     transform: translate(-50%,-50%);
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.450);
     padding: 40px 20px;
     border-radius: 20px;
-    opacity: 0;
-}
-
-.main-work:hover .main-work-back{
-    position: absolute;
     rotate: -2.5deg;
     transition: 0.3s;
-    opacity: 1;
-
 
 }
 
 .main-work{
-    position: absolute;
+    position: fixed;
     width: 400px;
     height: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.450);
     padding: 40px 20px;
     border-radius: 20px;
 }
@@ -74,6 +67,24 @@ body{
     font-size: 13px;
     text-align: center;
 }
+
+.Box4{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Box5{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+}
 .input-icons i {
     position: absolute;
 }
@@ -86,10 +97,8 @@ body{
 .icon {
     color: green;
     text-align: center;
-    left: 35px; 
-    margin-top: 24px;
-    
 }
+
 
 .input-field {
     width: 100%;
